@@ -174,11 +174,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/juice/proprietary/product/lib/vendor.qti.ims.callcapability@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.ims.callcapability@1.0.so \
     vendor/xiaomi/juice/proprietary/product/lib/vendor.qti.ims.callinfo@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.ims.callinfo@1.0.so \
     vendor/xiaomi/juice/proprietary/product/lib/vendor.qti.ims.factory@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.ims.factory@1.0.so \
-    vendor/xiaomi/juice/proprietary/product/lib/vendor.qti.ims.factory@1.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.ims.factory@1.1.so \
     vendor/xiaomi/juice/proprietary/product/lib/vendor.qti.ims.rcsconfig@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.ims.rcsconfig@1.0.so \
     vendor/xiaomi/juice/proprietary/product/lib/vendor.qti.ims.rcsconfig@1.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.ims.rcsconfig@1.1.so \
-    vendor/xiaomi/juice/proprietary/product/lib/vendor.qti.imsrtpservice@3.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.imsrtpservice@2.0.so \
-    vendor/xiaomi/juice/proprietary/product/lib/vendor.qti.imsrtpservice@3.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.imsrtpservice@2.1.so \
+    vendor/xiaomi/juice/proprietary/product/lib/vendor.qti.imsrtpservice@2.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.imsrtpservice@2.0.so \
+    vendor/xiaomi/juice/proprietary/product/lib/vendor.qti.imsrtpservice@2.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.imsrtpservice@2.1.so \
     vendor/xiaomi/juice/proprietary/product/lib/vendor.qti.latency@2.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.latency@2.0.so \
     vendor/xiaomi/juice/proprietary/product/lib64/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/com.qualcomm.qti.ant@1.0.so \
     vendor/xiaomi/juice/proprietary/product/lib64/com.qualcomm.qti.dpm.api@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/com.qualcomm.qti.dpm.api@1.0.so \
@@ -204,6 +203,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/juice/proprietary/product/lib64/libsdm-disp-apis.qti.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libsdm-disp-apis.qti.so \
     vendor/xiaomi/juice/proprietary/product/lib64/libsecureui_svcsock_system.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libsecureui_svcsock_system.so \
     vendor/xiaomi/juice/proprietary/product/lib64/libsecureuisvc_jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libsecureuisvc_jni.so \
+    vendor/xiaomi/juice/proprietary/product/lib64/libsmomo.qti.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libsmomo.qti.so \
     vendor/xiaomi/juice/proprietary/product/lib64/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.display.color@1.0.so \
     vendor/xiaomi/juice/proprietary/product/lib64/vendor.display.color@1.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.display.color@1.1.so \
     vendor/xiaomi/juice/proprietary/product/lib64/vendor.display.color@1.2.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.display.color@1.2.so \
@@ -306,13 +306,11 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.data.dynamicdds-V1.0-java \
     vendor.qti.hardware.data.iwlan-V1.0-java \
     vendor.qti.hardware.data.latency-V1.0-java \
-    vendor.qti.hardware.data.qmi-V1.0-java \
     vendor.qti.hardware.wigig.netperftuner-V1.0-java \
     vendor.qti.hardware.wigig.supptunnel-V1.0-java \
     vendor.qti.ims.callcapability-V1.0-java \
     vendor.qti.ims.callinfo-V1.0-java \
     vendor.qti.ims.factory-V1.0-java \
-    vendor.qti.ims.factory-V1.1-java \
     vendor.qti.ims.rcsconfig-V1.0-java \
     vendor.qti.ims.rcsconfig-V1.1-java \
     vendor.qti.latency-V2.0-java \
